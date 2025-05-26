@@ -1,0 +1,17 @@
+# Faça um programa que leia um nº inteiro qualquer e mostre na tela a sua tabuada
+n = int(input('Digite um número: '))
+print('A tabuada de {}:'.format(n))
+print('-' * 13)
+#print('{}x1 = {}\n{}x2 = {}\n{}x3 = {}\n{}x4 = {}\n{}x5 = {}\n{}x6 = {}\n{}x7 = {}\n{}x8 = {}\n{}x9 = {}\n{}x10 = {}'
+#      .format(n, n*1, n, n*2, n, n*3, n, n*4, n, n*5, n, n*6, n, n*7, n, n*8, n, n*9, n, n*10))
+print('{} x {:2} = {}'.format(n, 1, n*1))
+print('{} x {:2} = {}'.format(n, 2, n*2))
+print('{} x {:2} = {}'.format(n, 3, n*3))
+print('{} x {:2} = {}'.format(n, 4, n*4))
+print('{} x {:2} = {}'.format(n, 5, n*5))
+print('{} x {:2} = {}'.format(n, 6, n*6))
+print('{} x {:2} = {}'.format(n, 7, n*7))
+print('{} x {:2} = {}'.format(n, 8, n*8))
+print('{} x {:2} = {}'.format(n, 9, n*9))
+print('{} x {:2} = {}'.format(n, 10, n*10))
+print('-' * 13)
